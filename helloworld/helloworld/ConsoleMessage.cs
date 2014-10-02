@@ -5,12 +5,11 @@ using System.Text;
 
 namespace helloworld
 {
-    class Program
+    public static class ConsoleMessage
     {
-        static void Main(string[] args)
+        public static void HelloWorld()
         {
-            ConsoleMessage.HelloWorld();
-            Console.ReadLine();
+            Console.Write("Hello, world!");
         }
     }
 }
