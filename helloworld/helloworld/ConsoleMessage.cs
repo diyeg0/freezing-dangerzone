@@ -11,5 +11,9 @@ namespace helloworld
         {
             Console.Write("Hello, world!");
         }
+        public static void HelloGitHub()
+        {
+            Console.Write("Hello, GitHub!");
+        }
     }
 }
