@@ -15,5 +15,9 @@ namespace helloworld
         {
             Console.Write("Hello, GitHub!");
         }
+        public static void HelloJenkins()
+        {
+            Console.Write("Hello, Jenkins!");
+        }
     }
 }
